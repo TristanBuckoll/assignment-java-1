@@ -11,6 +11,7 @@ public class Main
 	  System.out.println(isPalindrome("radar"));
 	  System.out.println(isPalindrome("bob"));
 	  System.out.println(isPalindrome("asdfdsa"));
+	  System.out.println(isPalindrome("hello"));
 	}
 	
 	public static int firstDuplicateIn(int[] array){
@@ -22,19 +23,19 @@ public class Main
 		  }
 	    }
 	  }
+	  
 	  //Returns the first item in the array if there are no duplicates
 	  return array[0];
 	}
 	
 	public static boolean isPalindrome(String testString){
+	  //Creates reverse of string
 	  String reverse = "";
 	  for(int i = testString.length() - 1; i >= 0; i--){
 	    reverse += testString.charAt(i);
 	  }
 	  
-	  if(testString == reverse){
-	    return true;
-	  }
-	  return false;
+	  //Determines whether the reverse and original string are equal
+	  return reverse.equals(testString);
 	}
 }
