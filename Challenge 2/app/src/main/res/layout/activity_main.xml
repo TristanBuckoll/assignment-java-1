@@ -27,6 +27,8 @@
                 android:id="@+id/image1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
                 app:srcCompat="@drawable/index" />
 
             <TextView
@@ -38,6 +40,8 @@
                 android:id="@+id/image2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
                 app:srcCompat="@drawable/index2" />
 
             <TextView
@@ -49,6 +53,8 @@
                 android:id="@+id/image3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
                 app:srcCompat="@drawable/index3" />
 
             <TextView
@@ -57,9 +63,11 @@
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/image4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
                 app:srcCompat="@drawable/index4" />
 
             <TextView
@@ -68,9 +76,11 @@
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/image5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
                 app:srcCompat="@drawable/index5" />
 
             <TextView
